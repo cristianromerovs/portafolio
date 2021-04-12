@@ -5,9 +5,11 @@
     background-color: $semi-azul;
     padding: 50px 30px;
     border-radius: 25px;
-    width: 45vw;
+    width: auto;
     position: relative;
     font-size: 16px;
+    box-shadow: 6px 6px 10px 0px rgba(0, 0, 0, 0.14);
+
 
     .corner-icon {
         position: absolute;

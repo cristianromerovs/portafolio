@@ -103,9 +103,10 @@
   background-color: #2d3958;
   padding: 50px 30px;
   border-radius: 25px;
-  width: 45vw;
+  width: auto;
   position: relative;
-  font-size: 16px; }
+  font-size: 16px;
+  box-shadow: 6px 6px 10px 0px rgba(0, 0, 0, 0.14); }
   .trabajos .corner-icon {
     position: absolute;
     top: 10px;
@@ -382,9 +383,10 @@
   background-color: #f2f2ff;
   padding: 50px 30px;
   border-radius: 25px;
-  width: 45vw;
+  width: auto;
   position: relative;
-  font-size: 16px; }
+  font-size: 16px;
+  box-shadow: 6px 6px 10px 0px rgba(0, 0, 0, 0.14); }
   .estudios .corner-icon {
     position: absolute;
     top: 10px;
@@ -563,15 +565,7 @@
 /* (1440x900) WXGA+ Display */
 /* (1680x1050) WSXGA+ Display */
 /* (1920x1080) Full HD Display */
-@media screen and (max-width: 1920px) {
-  .estudios, .trabajos {
-    width: 33vw; } }
-
 /* (1600x900) HD+ Display */
-@media screen and (max-width: 1600px) {
-  .estudios, .trabajos {
-    width: 40vw; } }
-
 * {
   padding: 0;
   margin: 0; }
@@ -583,4 +577,4 @@ body {
 
 .estudios-trabajos {
   display: flex;
-  justify-content: space-between; }
+  justify-content: space-around; }
