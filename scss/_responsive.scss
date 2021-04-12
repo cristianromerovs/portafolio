@@ -102,20 +102,24 @@
  
 /* (1440x900) WXGA+ Display */
 @media  screen and (max-width: 1440px) {
-    /* insert styles here */
+    
 }
  
 /* (1680x1050) WSXGA+ Display */
 @media  screen and (max-width: 1680px) {
-    /* insert styles here */
+
 }
  
 /* (1920x1080) Full HD Display */
 @media  screen and (max-width: 1920px) {
-    /* insert styles here */
+    .estudios, .trabajos{
+        width: 33vw;
+    }
 }
  
 /* (1600x900) HD+ Display */
 @media  screen and (max-width: 1600px) {
-    /* insert styles here */
+    .estudios, .trabajos{
+        width: 40vw;
+    }
 }
