@@ -1,0 +1,69 @@
+@import "colors";
+@import "mixin";
+
+.main{
+    padding: 50px 30px;
+    background-color: $semi-blanco;
+    border-radius: 25px;
+
+    h1{
+        color: $semi-azul;
+        font-size: 48px;
+        line-height: 1.08;
+        font-weight: 600;
+        letter-spacing: -0.03em;
+    }
+
+    p{
+        color: $gris;
+        width: 370px;
+        font-size: 16px;
+    
+        b{
+            color: $morado;
+            width: 370px;
+        }
+    }
+}
+
+.main-right img{
+    @include sizes(16vw, auto);
+    border-radius: 50%;
+    -webkit-user-drag: none;
+    -khtml-user-drag: none;
+    -moz-user-drag: none;
+    -o-user-drag: none;
+    user-drag: none;
+    margin-top: 20px;
+}
+
+.scale-in-center {
+	-webkit-animation: scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+.bounce-top {
+	-webkit-animation: bounce-top 0.9s both;
+	        animation: bounce-top 0.9s both;
+}
+
+.main-left{
+    margin-top: 20px;
+
+    a button{
+        border: none;
+        background-color: $morado;
+        color: $blanco;
+        padding: 10px 20px;
+        border-radius: 25px;
+        font-size: 17px;
+        font-weight: 400;
+    }
+
+    a button:hover{
+        background-color: $semi-azul;
+        transition: all 2s ease;
+        color: $blanco;
+    }
+}
+

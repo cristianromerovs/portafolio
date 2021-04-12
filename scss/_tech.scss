@@ -1,0 +1,47 @@
+@import "colors";
+
+.lenguajes{
+    margin-top: 40px;
+    padding: 50px 30px;
+    background-color: $semi-blanco;
+    border-radius: 25px;
+    text-align: center;
+    font-weight: bold;
+
+    p {
+        margin-top: 10px;
+    }
+
+    h2{
+        margin-bottom: 50px;
+        text-align: left;
+        color: $semi-azul;
+        font-size: 35px;
+        line-height: 1.08;
+        font-weight: 600;
+        letter-spacing: -0.03em;
+    }
+
+    i{
+        font-size: 90px;
+    }
+
+    h3{
+        margin-top: 50px;
+        color: $semi-azul;
+        font-size: 35px;
+        line-height: 1.08;
+        font-weight: 600;
+        letter-spacing: -0.03em;
+    }
+}
+
+#html{ color: rgb(234, 87, 43); } 
+#css{ color: rgb(47, 111, 173); } 
+#javascript{ color: rgb(236, 216, 77); } 
+#sass{ color: rgb(232, 137, 170); }
+#react{ 
+    color: rgb(124, 208, 239); 
+    -webkit-animation: rotate-center 2s ease-in-out infinite both;
+            animation: rotate-center 2s ease-in-out infinite both;
+}

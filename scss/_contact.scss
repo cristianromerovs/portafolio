@@ -1,0 +1,120 @@
+@import "colors";
+
+.contacto{
+    margin-top: 40px;
+    padding: 50px 30px;
+    background-color: $semi-azul;
+    border-radius: 25px;
+    text-align: center;
+
+    .contacto-flex {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+    }
+
+    .contacto-rrss {
+        margin-top: 40px;
+        display: flex;
+        justify-content: space-around; 
+        width: 50%;
+    
+        a {
+            font-size: 40px;
+            color: $blanco;
+        }
+
+        a:hover {
+            color: rgb(236, 216, 77);
+            transition: 1s ease all;
+        }
+    }
+
+    .contacto-right {
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        line-height: 40px;
+        margin-left: 35px;
+
+        a {
+            color: $blanco;
+            font-size: 17px;
+            text-decoration: none;
+        }
+    }
+
+
+    h2{
+        margin-bottom: 50px;
+        text-align: left;
+        color: $blanco;
+        font-size: 35px;
+        line-height: 1.08;
+        font-weight: 600;
+        letter-spacing: -0.03em;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+
+        input[type=text], input[type=email]{
+            border: none;
+            border-radius: 20px;
+            font-size: 13px;
+            padding: 7px 10px 7px 20px;
+            width: 300px;
+            margin-bottom: 10px;
+        }
+
+        input[type=submit] {
+            border: none;
+            border-radius: 20px;
+            font-size: 13px;
+            padding: 7px 10px 7px 20px;
+            width: 300px;
+            margin-bottom: 10px;
+            background-color: $morado;
+            color: $blanco;
+            font-weight: bold;
+        }
+
+        input[type=submit]:hover{
+            background-color: $blanco;
+            color: $semi-azul;
+            transition: 1s ease all;
+        }
+
+        input[type=text]::placeholder, input[type=email]::placeholder {
+            font-size: 13px;
+            color: $semi-azul;
+        }
+
+        input[type=text]:focus, input[type=email]:focus {
+            outline: none;
+        }
+
+        textarea {
+            border: none;
+            border-radius: 20px;
+            font-size: 13px;
+            padding: 7px 10px 7px 20px;
+            width: 300px;
+            height: 150px;
+            margin-bottom: 10px;
+            resize: none;
+        }
+
+        textarea::placeholder {
+            color: $semi-azul;
+        }
+
+        textarea:focus, input[type=submit]:focus{
+            outline: none;
+        }
+    }
+
+}
+

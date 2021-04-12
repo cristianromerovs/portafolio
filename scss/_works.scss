@@ -1,0 +1,37 @@
+@import "colors";
+
+.trabajos{
+    margin-top: 40px;
+    background-color: $semi-azul;
+    padding: 50px 30px;
+    border-radius: 25px;
+    width: 45vw;
+    position: relative;
+    font-size: 16px;
+
+    .corner-icon {
+        position: absolute;
+        top: 10px;
+        right: 20px;
+        font-size: 20px;
+        color: $blanco;
+    }
+
+    h2{
+        margin-bottom: 30px;
+        color: $blanco;
+        font-size: 35px;
+        line-height: 1.08;
+        font-weight: 600;
+        letter-spacing: -0.03em;
+    }
+
+    ul {
+        list-style-type: none;
+        padding-left: 0rem;
+        li {
+            color: $blanco;
+            line-height: 35px;
+        }
+    }
+}

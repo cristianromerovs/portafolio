@@ -1,0 +1,25 @@
+@import "colors";
+
+.sobre-mi{
+    margin-top: 40px;
+    background-color: $semi-blanco;
+    padding: 50px 30px;
+    border-radius: 25px;
+
+    h2{
+        margin-bottom: 30px;
+        color: $semi-azul;
+        font-size: 35px;
+        line-height: 1.08;
+        font-weight: 600;
+        letter-spacing: -0.03em;
+    }
+    p {
+        color: $gris;
+        font-size: 16px;
+        width: 60vw;
+        text-align: justify;
+        margin-bottom: 20px;
+    }
+
+}

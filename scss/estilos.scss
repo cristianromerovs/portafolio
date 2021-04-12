@@ -1,0 +1,17 @@
+@import "navbar", "main", "about", "works", "tech", "contact", "keyframes", "studies", "contact", "responsive";
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: -0.03em;
+    scroll-behavior: smooth;
+}
+
+.estudios-trabajos {
+    display: flex;
+    justify-content: space-between;
+}
