@@ -185,11 +185,12 @@
   .contacto .contacto-rrss {
     margin-top: 40px;
     display: flex;
-    justify-content: space-around;
-    width: 50%; }
+    width: 50%;
+    margin-left: 30px; }
     .contacto .contacto-rrss a {
       font-size: 40px;
-      color: #fff; }
+      color: #fff;
+      margin-right: 50px; }
     .contacto .contacto-rrss a:hover {
       color: #ecd84d;
       transition: 1s ease all; }
@@ -421,11 +422,12 @@
   .contacto .contacto-rrss {
     margin-top: 40px;
     display: flex;
-    justify-content: space-around;
-    width: 50%; }
+    width: 50%;
+    margin-left: 30px; }
     .contacto .contacto-rrss a {
       font-size: 40px;
-      color: #fff; }
+      color: #fff;
+      margin-right: 50px; }
     .contacto .contacto-rrss a:hover {
       color: #ecd84d;
       transition: 1s ease all; }
@@ -494,6 +496,8 @@
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
   .estudios, .trabajos {
     width: auto; }
+  .navbar-text {
+    margin-left: 50px; }
   .main h1 {
     font-size: 30px; }
   .main p {

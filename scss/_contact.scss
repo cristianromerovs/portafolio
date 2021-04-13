@@ -17,12 +17,13 @@
     .contacto-rrss {
         margin-top: 40px;
         display: flex;
-        justify-content: space-around; 
         width: 50%;
+        margin-left: 30px;
     
         a {
             font-size: 40px;
             color: $blanco;
+            margin-right: 50px;
         }
 
         a:hover {
