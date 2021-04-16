@@ -1,3 +1,42 @@
+/* (320x480) iPhone (Original, 3G, 3GS) */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .estudios, .trabajos {
+    width: auto; }
+  .navbar-text {
+    margin-left: 50px; }
+  .main h1 {
+    font-size: 30px; }
+  .main p {
+    font-size: 13px;
+    width: 70vw; }
+  .main-left a button {
+    padding: 7px 15px;
+    font-size: 15px; }
+  .main-right img {
+    width: 40vw; }
+  .sobre-mi p {
+    font-size: 13px;
+    width: auto; }
+  .trabajos, .estudios {
+    font-size: 13px; }
+  .cotizacion {
+    margin: 40px 0px !important;
+    padding: 30px 0px !important; }
+    .cotizacion h1 {
+      width: 80vw !important; }
+    .cotizacion .form-cotizacion {
+      width: 90vw !important; }
+      .cotizacion .form-cotizacion input[type=text] {
+        width: 70vw !important;
+        padding: 7px 20px;
+        font-size: 14px; }
+      .cotizacion .form-cotizacion select {
+        width: 70vw !important;
+        padding: 7px 10px;
+        font-size: 14px; }
+      .cotizacion .form-cotizacion input[type=submit] {
+        width: 40vw !important; } }
+
 .navbar-nav {
   margin: 0px auto;
   padding: 10px 0px; }
@@ -32,7 +71,7 @@
   background-color: #f2f2ff;
   border-radius: 25px; }
   .main h1 {
-    color: #2d3958;
+    color: #263761;
     font-size: 48px;
     line-height: 1.08;
     font-weight: 600;
@@ -75,7 +114,7 @@
     font-size: 17px;
     font-weight: 400; }
   .main-left a button:hover {
-    background-color: #2d3958;
+    background-color: #263761;
     transition: all 2s ease;
     color: #fff; }
 
@@ -86,7 +125,7 @@
   border-radius: 25px; }
   .sobre-mi h2 {
     margin-bottom: 30px;
-    color: #2d3958;
+    color: #263761;
     font-size: 35px;
     line-height: 1.08;
     font-weight: 600;
@@ -100,7 +139,7 @@
 
 .trabajos {
   margin-top: 40px;
-  background-color: #2d3958;
+  background-color: #263761;
   padding: 50px 30px;
   border-radius: 25px;
   width: auto;
@@ -139,7 +178,7 @@
   .lenguajes h2 {
     margin-bottom: 50px;
     text-align: left;
-    color: #2d3958;
+    color: #263761;
     font-size: 35px;
     line-height: 1.08;
     font-weight: 600;
@@ -148,7 +187,7 @@
     font-size: 90px; }
   .lenguajes h3 {
     margin-top: 50px;
-    color: #2d3958;
+    color: #263761;
     font-size: 35px;
     line-height: 1.08;
     font-weight: 600;
@@ -174,7 +213,7 @@
 .contacto {
   margin-top: 40px;
   padding: 50px 30px;
-  background-color: #2d3958;
+  background-color: #263761;
   border-radius: 25px;
   text-align: center; }
   .contacto .contacto-flex {
@@ -234,11 +273,11 @@
       font-weight: bold; }
     .contacto form input[type=submit]:hover {
       background-color: #fff;
-      color: #2d3958;
+      color: #263761;
       transition: 1s ease all; }
     .contacto form input[type=text]::placeholder, .contacto form input[type=email]::placeholder {
       font-size: 13px;
-      color: #2d3958; }
+      color: #263761; }
     .contacto form input[type=text]:focus, .contacto form input[type=email]:focus {
       outline: none; }
     .contacto form textarea {
@@ -251,7 +290,7 @@
       margin-bottom: 10px;
       resize: none; }
     .contacto form textarea::placeholder {
-      color: #2d3958; }
+      color: #263761; }
     .contacto form textarea:focus, .contacto form input[type=submit]:focus {
       outline: none; }
 
@@ -393,10 +432,10 @@
     top: 10px;
     right: 20px;
     font-size: 20px;
-    color: #2d3958; }
+    color: #263761; }
   .estudios h2 {
     margin-bottom: 30px;
-    color: #2d3958;
+    color: #263761;
     font-size: 35px;
     line-height: 1.08;
     font-weight: 600;
@@ -405,13 +444,13 @@
     list-style-type: none;
     padding-left: 0rem; }
     .estudios ul li {
-      color: #2d3958;
+      color: #263761;
       line-height: 45px; }
 
 .contacto {
   margin-top: 40px;
   padding: 50px 30px;
-  background-color: #2d3958;
+  background-color: #263761;
   border-radius: 25px;
   text-align: center; }
   .contacto .contacto-flex {
@@ -471,11 +510,11 @@
       font-weight: bold; }
     .contacto form input[type=submit]:hover {
       background-color: #fff;
-      color: #2d3958;
+      color: #263761;
       transition: 1s ease all; }
     .contacto form input[type=text]::placeholder, .contacto form input[type=email]::placeholder {
       font-size: 13px;
-      color: #2d3958; }
+      color: #263761; }
     .contacto form input[type=text]:focus, .contacto form input[type=email]:focus {
       outline: none; }
     .contacto form textarea {
@@ -488,88 +527,87 @@
       margin-bottom: 10px;
       resize: none; }
     .contacto form textarea::placeholder {
-      color: #2d3958; }
+      color: #263761; }
     .contacto form textarea:focus, .contacto form input[type=submit]:focus {
       outline: none; }
 
-/* (320x480) iPhone (Original, 3G, 3GS) */
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
-  .estudios, .trabajos {
-    width: auto; }
-  .navbar-text {
-    margin-left: 50px; }
-  .main h1 {
-    font-size: 30px; }
-  .main p {
-    font-size: 13px;
-    width: 70vw; }
-  .main-left a button {
-    padding: 7px 15px;
-    font-size: 15px; }
-  .main-right img {
-    width: 40vw; }
-  .sobre-mi p {
-    font-size: 13px;
-    width: auto; }
-  .trabajos, .estudios {
-    font-size: 13px; } }
+.cotizacion {
+  padding: 50px 30px;
+  background-color: #f2f2ff;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .cotizacion h1 {
+    color: #263761;
+    font-size: 40px;
+    margin-bottom: 30px;
+    width: 30%;
+    font-weight: 600; }
+  .cotizacion .form-cotizacion {
+    padding: 40px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 35vw;
+    background-color: #fff;
+    border-radius: 25px; }
+    .cotizacion .form-cotizacion select {
+      border: none;
+      width: 22vw;
+      background-color: #f2f2ff;
+      border-radius: 20px;
+      padding: 7px 10px;
+      font-size: 14px;
+      color: #263761;
+      margin-bottom: 12px; }
+    .cotizacion .form-cotizacion input[type=text] {
+      border: none;
+      width: 22vw;
+      background-color: #f2f2ff;
+      border-radius: 20px;
+      padding: 7px 20px;
+      font-size: 14px;
+      color: #263761;
+      margin-bottom: 12px; }
+    .cotizacion .form-cotizacion ::placeholder {
+      font-size: 14px;
+      color: #5641e5; }
+    .cotizacion .form-cotizacion :focus {
+      outline: none; }
+    .cotizacion .form-cotizacion input[type=submit] {
+      font-weight: 500;
+      margin-top: 20px;
+      border: none;
+      padding: 10px 20px;
+      color: #fff;
+      background-color: #5641e5;
+      border-radius: 10px;
+      width: 10vw;
+      box-shadow: 6px 3px 5px 0px rgba(0, 0, 0, 0.04);
+      -webkit-box-shadow: 6px 3px 5px 0px rgba(0, 0, 0, 0.04);
+      -moz-box-shadow: 6px 3px 5px 0px rgba(0, 0, 0, 0.04); }
+    .cotizacion .form-cotizacion input[type=submit]:hover {
+      background-color: #263761;
+      transition: 2s; }
 
-/* (320x480) Smartphone, Portrait */
-@media only screen and (device-width: 320px) and (orientation: portrait) {
-  /* insert styles here */ }
+.footer {
+  background-color: #fff;
+  color: #263761;
+  font-weight: 400;
+  font-size: 15px;
+  padding: 30px 0px 30px 0px;
+  height: auto;
+  width: 100%;
+  display: block; }
+  .footer a, .footer p {
+    color: #27202c;
+    padding: 0px !important;
+    margin: 0px !important;
+    text-decoration: none; }
+  .footer p i {
+    margin-right: 10px; }
 
-/* (320x480) Smartphone, Landscape */
-@media only screen and (device-width: 480px) and (orientation: landscape) {
-  /* insert styles here */ }
-
-/* (480x800) Android */
-@media only screen and (min-device-width: 480px) and (max-device-width: 800px) {
-  /* insert styles here */ }
-
-/* (640x960) iPhone 4 & 4S */
-@media only screen and (min-device-width: 640px) and (max-device-width: 960px) {
-  /* insert styles here */ }
-
-/* (720x1280) Galaxy Nexus, WXGA */
-@media only screen and (min-device-width: 720px) and (max-device-width: 1280px) {
-  /* insert styles here */ }
-
-/* (720x1280) Galaxy Nexus, Landscape */
-@media only screen and (min-device-width: 720px) and (max-device-width: 1280px) and (orientation: landscape) {
-  /* insert styles here */ }
-
-/* (1024x768) iPad 1 & 2, XGA */
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
-  /* insert styles here */ }
-
-/* (768x1024) iPad 1 & 2, Portrait */
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
-  /* insert styles here */ }
-
-/* (1024x768) iPad 1 & 2, Landscape */
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
-  /* insert styles here */ }
-
-/* (2048x1536) iPad 3 */
-@media only screen and (min-device-width: 1536px) and (max-device-width: 2048px) {
-  /* insert styles here */ }
-
-/* (1280x720) Galaxy Note 2, WXGA */
-@media only screen and (min-device-width: 720px) and (max-device-width: 1280px) {
-  /* insert styles here */ }
-
-/* (1366x768) WXGA Display */
-@media screen and (max-width: 1366px) {
-  /* insert styles here */ }
-
-/* (1280x1024) SXGA Display */
-@media screen and (max-width: 1280px) {
-  /* insert styles here */ }
-
-/* (1440x900) WXGA+ Display */
-/* (1680x1050) WSXGA+ Display */
-/* (1920x1080) Full HD Display */
-/* (1600x900) HD+ Display */
 * {
   padding: 0;
   margin: 0; }

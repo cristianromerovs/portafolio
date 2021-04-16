@@ -46,7 +46,40 @@
     </nav>
     <!-- END NAVBAR -->
 
-    <h1>COTIZACIÓN</h1>
+    <div class="container cotizacion">
+        <h1>Cotiza tu pagina web aquí.</h1>
+        <form class="form-cotizacion" action="#" method="POST">
+            <input type="text" placeholder="Tu nombre:">
+            <input type="text" placeholder="Tu email:">
+            <input type="text" placeholder="Nombre de tu pagina:">
+            <select name="" id="">
+                <option value="none" selected disabled>Selecciona tipo de web</option>
+                <option value="appweb">Aplicación web</option>
+                <option value="spa">Pagina simple</option>
+                <option value="ecommerce">E-Commerce</option>
+            </select>
+            <select name="" id="">
+                <option value="none" selected disabled>Necesitas una base de datos?</option>
+                <option value="db-yes">Si</option>
+                <option value="db-not">No</option>
+            </select>
+            <input type="submit" value="Enviar">
+        </form>
+    </div>
+
+    <div class="container-fluid footer">
+        <div class="container d-flex justify-content-center">
+            <div class="row">
+                <div class="col-sm d-flex align-items-center">
+                    Cristian Romero | Todos los derechos reservados.
+                </div>
+                <div class="col-sm">
+                    <p><i class="fas fa-envelope" aria-hidden="true"></i><a href="mailto:cristianromerovs@gmail.com">cristianromerovs@gmail.com</a></p>
+                    <p><i class="fas fa-clock" aria-hidden="true"></i>Horario de Atención: Lun Vie: 9.00 / 19.00</p>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <script src="https://kit.fontawesome.com/55133c9e1e.js" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>

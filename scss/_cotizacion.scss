@@ -1,1 +1,101 @@
 @import "colors";
+
+.cotizacion {
+    padding: 50px 30px;
+    background-color: $semi-blanco;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    h1 {
+        color: $semi-azul;
+        font-size: 40px;
+        margin-bottom: 30px;
+        width: 30%;
+        font-weight: 600;
+    }
+
+    .form-cotizacion {
+        padding: 40px 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 35vw;
+        background-color: $blanco;
+        border-radius: 25px;
+
+        select {
+            border: none;
+            width: 22vw;
+            background-color: $semi-blanco;
+            border-radius: 20px;
+            padding: 7px 10px;
+            font-size: 14px;
+            color: $semi-azul;
+            margin-bottom: 12px;
+        }
+
+        input[type=text] {
+            border: none;
+            width: 22vw;
+            background-color: $semi-blanco;
+            border-radius: 20px;
+            padding: 7px 20px;
+            font-size: 14px;
+            color: $semi-azul;
+            margin-bottom: 12px;
+        }
+
+        ::placeholder {
+            font-size: 14px;
+            color: $morado;
+        }
+
+        :focus {
+            outline: none;
+        }
+
+        input[type=submit] {
+            font-weight: 500;
+            margin-top: 20px;
+            border: none;
+            padding: 10px 20px;
+            color: $blanco;
+            background-color: $morado;
+            border-radius: 10px;
+            width: 10vw;
+            box-shadow: 6px 3px 5px 0px rgba(0, 0, 0, 0.04);
+            -webkit-box-shadow: 6px 3px 5px 0px rgba(0, 0, 0, 0.04);
+            -moz-box-shadow: 6px 3px 5px 0px rgba(0, 0, 0, 0.04);
+        }
+
+        input[type=submit]:hover {
+            background-color: $semi-azul;
+            transition: 2s;
+        }
+        
+    }
+}
+
+.footer{
+    background-color: $blanco;
+    color: $semi-azul;
+    font-weight: 400;
+    font-size: 15px;
+    padding: 30px 0px 30px 0px;
+    height: auto;
+    width: 100%;
+    display: block;
+
+    a, p{
+        color: #27202c;
+        padding: 0px !important;
+        margin: 0px !important;
+        text-decoration: none;
+    }
+
+    p i{
+        margin-right: 10px;
+    }
+}
