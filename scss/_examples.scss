@@ -1,0 +1,77 @@
+@import "colors";
+
+.contenedor {
+    width: 90vw;
+    max-width: 1000px;
+    margin: 20px auto;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, auto);
+
+    header, .sidebar, footer, .contenido, div {
+        background-color: $semi-blanco;
+        padding: 20px;
+        border-radius: 25px;
+    }
+
+    header {
+        background-color: $semi-azul;
+        color: $blanco;
+        grid-column-start: 1;
+        grid-column-end: 4;
+    }
+
+    .contenido {
+        grid-column: span 2;
+        color: $semi-azul;
+    }
+
+    .sidebar {
+        grid-column: 3 / 4;
+        grid-row: span 2;
+        min-height: 100px;
+        color: $semi-azul;
+
+        ul { 
+            list-style: none;
+            margin-top: 20px;
+            li {
+                line-height: 40px;
+                a {
+                    text-decoration: none;
+                    color: $morado;
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+
+    .widget-1 {
+        background-color: $morado;
+        color: $blanco;
+        grid-column: span 2;
+    }
+
+    footer {
+        background-color: $semi-azul;
+        color: $blanco;
+        grid-column: span 3;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .contenedor {
+        .contenido {
+            grid-column: 1 / -1;
+        }
+
+        .sidebar {
+            grid-column: 1 / -1;
+        }
+
+        .widget-1 {
+            grid-column: 1 / -1;
+        }
+    }
+}
