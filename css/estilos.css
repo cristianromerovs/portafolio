@@ -609,9 +609,8 @@
     margin-right: 10px; }
 
 .contenedor {
-  width: 90vw;
-  max-width: 1000px;
-  margin: 20px auto;
+  padding: 50px;
+  width: 100vw;
   display: grid;
   grid-gap: 20px;
   grid-template-columns: repeat(3, 1fr);
@@ -624,10 +623,23 @@
     background-color: #263761;
     color: #fff;
     grid-column-start: 1;
-    grid-column-end: 4; }
+    grid-column-end: 4;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+    .contenedor header h1 {
+      font-size: 30px; }
   .contenedor .contenido {
     grid-column: span 2;
-    color: #263761; }
+    color: #263761;
+    width: 100%; }
+    .contenedor .contenido img {
+      width: 100%;
+      height: auto;
+      border-radius: 25px; }
+    .contenedor .contenido h2 {
+      font-size: 25px;
+      margin-bottom: 20px; }
   .contenedor .sidebar {
     grid-column: 3 / 4;
     grid-row: span 2;
@@ -645,11 +657,22 @@
   .contenedor .widget-1 {
     background-color: #5641e5;
     color: #fff;
-    grid-column: span 2; }
+    grid-column: span 2;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+    .contenedor .widget-1 p {
+      font-size: 18px;
+      padding: 20px;
+      margin: 0; }
   .contenedor footer {
     background-color: #263761;
-    color: #fff;
-    grid-column: span 3; }
+    grid-column: span 3;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+    .contenedor footer h3 a {
+      color: #fff; }
 
 @media screen and (max-width: 768px) {
   .contenedor .contenido {

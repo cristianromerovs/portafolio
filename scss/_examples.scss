@@ -1,9 +1,8 @@
 @import "colors";
 
 .contenedor {
-    width: 90vw;
-    max-width: 1000px;
-    margin: 20px auto;
+    padding: 50px;
+    width: 100vw;
     display: grid;
     grid-gap: 20px;
     grid-template-columns: repeat(3, 1fr);
@@ -20,11 +19,30 @@
         color: $blanco;
         grid-column-start: 1;
         grid-column-end: 4;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        h1 {
+            font-size: 30px;
+        }
     }
 
     .contenido {
         grid-column: span 2;
         color: $semi-azul;
+        width: 100%;
+
+        img {
+            width: 100%;
+            height: auto;
+            border-radius: 25px;
+        }
+
+        h2 {
+            font-size: 25px;
+            margin-bottom: 20px;
+        }
     }
 
     .sidebar {
@@ -51,12 +69,30 @@
         background-color: $morado;
         color: $blanco;
         grid-column: span 2;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        p {
+            font-size: 18px;
+            padding: 20px;
+            margin: 0;
+        }
     }
 
     footer {
         background-color: $semi-azul;
-        color: $blanco;
         grid-column: span 3;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        h3 {
+            
+            a {
+                color: $blanco;
+            }
+        }
     }
 }
 
